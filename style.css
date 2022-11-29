@@ -1,0 +1,174 @@
+body {
+    color:#222425;
+    font-family: proxima_nova_rgbold sans-serif;
+}
+
+.head {
+    color: #fff;
+    display: flex;
+    background-color: #222425;
+    padding: 10px 100px 50px;
+    flex-direction: column;
+}
+
+.head-top,
+.head-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: fit-content;
+
+}
+
+.head-content {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.image1 {
+    background: url("./imags/pexels-pixabay-45201.jpg");  
+}
+.image2 {
+    background: url("./imags/pexels-diana-huggins-615369.jpeg");  
+}
+.image3 {
+    background: url("./imags/pexels-pixabay-357141.jpg");  
+}
+.image4 {
+    background: url("./imags/pexels-xue-guangjian-1687831.jpg");  
+}
+
+.body .image:hover {
+    opacity: 0.5;
+}
+.body li {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    align-items: center;
+}
+.body li p {
+    text-align: center;
+}
+.body li a{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    background-color: rgba(128, 128, 128, 0.157);
+    font-size:larger;
+    font-weight: lighter;
+    line-height: 40px;
+    font-style: italic;
+    padding: 50px 330px;
+    text-align: -webkit-center;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #b2d338;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.sign-up p{
+    color: #fff;
+}
+.sign-up button {
+    background-color: #2f2f35;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding:5px 10px;
+}
+.sign-up button:hover {
+    background-color: #b2d338;
+}
+
+.footer {
+    color: #fff;
+    background-color: #2f2f35;
+    padding: 5px 300px;
+    margin-top: 20px;
+}
+.footer p {
+    text-align: center;
+    font-weight: lighter;
+}
+
+button {
+    width: 100px;
+    padding:5px 15px;
+    background-color: #b2d338;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+button:hover{
+    background-color: #2f2f35;
+}
+
+.li img {
+    width: 100px;
+}
+
+.head-content,
+img {
+    width: 530px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    font-size: 14px;
+    padding: 0px;
+    list-style: none;
+    gap: 30px;
+}
+
+.head-top li {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: proxima_nova_rgbold;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 37px;
+    height: 36px;
+}
+
+.head a:hover{
+    color: #b2d338;
+    background: #2f2f35;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
